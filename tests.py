@@ -8,3 +8,6 @@ def test_get_org(api_key):
     resp = resp.json()
     assert resp['organization']['name'] == 'Vijana Amani Pamoja (VAP)'
     print('ok')
+
+assert 1 == 1
+print('ok')
